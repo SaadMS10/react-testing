@@ -12,8 +12,5 @@ deploy:
  skip_cleanup: true
  domain: shut-sort.surge.sh 
  project: ./build/
-
 on:
-  branches:    # ← new!
-    only:      # ← new!
-      - main # ← new!
+  branch: master
