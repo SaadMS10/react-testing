@@ -12,7 +12,7 @@ test('render hello world', () => {
 test('find world in the document', () => {
   const renderResponse = render(<App />);
 
-  const worldElement = renderResponse.getByText(/User/i);
+  const worldElement = renderResponse.getByText(/UserHow/i);
   expect(worldElement).toBeInTheDocument();
 });
 
