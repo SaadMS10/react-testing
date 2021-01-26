@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-        Hello UserHow
+        Hello User How Are You
       <input type='text' placeholder='Please enter your name here' />
     </div>
   );
