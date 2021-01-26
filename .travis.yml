@@ -10,7 +10,7 @@ script:
 deploy:
  provider: surge
  skip_cleanup: true
- domain: http://saadquizapp-pwa.surge.sh/
+ domain: shut-sort.surge.sh 
  project: ./build/
 
 on:
