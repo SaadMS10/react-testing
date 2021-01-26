@@ -13,4 +13,4 @@ deploy:
  domain: shut-sort.surge.sh 
  project: ./build/
 on:
-  branch: main
+  all_branches: true
