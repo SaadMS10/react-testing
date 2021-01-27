@@ -10,7 +10,7 @@ script:
 deploy:
  provider: surge
  project: ./build/
- skip_cleanup: false
+ skip_cleanup: true
  domain: shut-sort.surge.sh 
  
 on:
