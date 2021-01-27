@@ -14,4 +14,4 @@ deploy:
  domain: shut-sort.surge.sh 
  
 on:
-  all_branches: true
+  branch: master
